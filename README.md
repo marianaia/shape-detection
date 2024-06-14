@@ -1,6 +1,9 @@
 # Shape detection and classification
 
 The Shape detection and classification project is using image processing techniques to identify and label shapes ( triangles, rectangles and circles). The result is the modified image with shape classification. The Canny edge detection algorithm is used to identify edges in the image. Classification is made based on the number of vertices and aspect ratio between squares and rectangles.
+Below is an example of the modified image with the shape detection of the object.
+
+![Example Image](images/modified_image.jpg)
 
 ## Requirements
 
@@ -39,9 +42,9 @@ The Shape detection and classification project is using image processing techniq
 
    This will:
 
-   - Load the specified image.
+   - Load the image to detech shapes.
    - Display the original image.
    - Detect shapes within the image.
-   - Annotate the image with the detected shapes and their names.
-   - Display the annotated image.
-   - Save the annotated image to the specified path.
+   - Classify the image with the detected shapes and their names.
+   - Display the classified shapes in the image.
+   - Save the modified image to the images folder.

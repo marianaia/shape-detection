@@ -35,6 +35,6 @@ if __name__ == "__main__":
 
     current_dir = os.path.dirname(os.path.abspath(__file__))
     image_dir = os.path.join(os.path.dirname(current_dir), "images")
-    image_path = os.path.join(image_dir, "test_image.png")
+    image_path = os.path.join(image_dir, "test_image.jpg")
     save_path = os.path.join(image_dir, "modified_image.jpg")
     main(image_path, save_path)

@@ -19,6 +19,3 @@ env/
 .vscode/
 .idea/
 
-# Ignore any generated image files
-images/*.jpg
-images/*.png
